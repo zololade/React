@@ -9,6 +9,7 @@ import hide from "./hide";
 function Booklist() {
   return (
     <>
+      <h1>amazon best sellers</h1>
       <section className="booklist">
         {books.map((book, index) => (
           <Book {...book} key={book.id} ranking={index} />
