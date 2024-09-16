@@ -26,6 +26,11 @@ body.active {
 
 }
 
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 /* style */
 .booklist {
@@ -157,7 +162,6 @@ body.active {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
-    /* border: 1px solid #ffffff8b; */
 }
 
 .about-img h2 {
